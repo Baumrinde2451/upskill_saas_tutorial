@@ -51,6 +51,16 @@ h1,h2,h3{
    
 }
 
+.navbar-default .navbar-toggle .icon-bar{
+   background:white;
+}
+
+.navbar-default .navbar-toggle{
+   border: 1px solid white;
+   &:hover, &:focus{
+      background-color:yellow;
+   }
+}
 
 .home-callout{
    color:white;
